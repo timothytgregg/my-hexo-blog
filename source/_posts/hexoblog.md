@@ -10,4 +10,17 @@ tags:
 ## With just a few simple commands, I can make a new post, write it out, generate the templates, then deploy and push it to github.
 
 1. Create new post
-..* `hexo new hexoblog`
+`hexo new hexoblog`
+
+2. Edit file to contain writing
+`nano source/_posts/hexoblog.md`
+
+3. Generate templates, and -d Deploy
+`hexo generate -d`
+
+4. Push to Github
+`git push -u`
+
+______
+
+There's some necessary configuration needed in the config.yml file, for this to work so smoothly. This can be found in Hexo's deployment documentation.
