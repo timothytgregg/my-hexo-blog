@@ -23,4 +23,4 @@ tags:
 
 ______
 
-There's some necessary configuration needed in the config.yml file, for this to work so smoothly. This can be found in Hexo's deployment documentation.
+There's some necessary configuration needed in the config.yml file, for this to work so smoothly. And you'll need [this](https://github.com/hexojs/hexo-deployer-git)
